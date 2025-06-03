@@ -1,7 +1,7 @@
 //import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { FaHandHoldingHeart, FaEye, FaUsers, FaChild, FaGraduationCap, FaHospital } from 'react-icons/fa';
+import { FaHandHoldingHeart, FaEye, FaUsers, FaGraduationCap, FaHospital } from 'react-icons/fa';
 
 const ProjetosSociais = () => {
   const projetos = [
