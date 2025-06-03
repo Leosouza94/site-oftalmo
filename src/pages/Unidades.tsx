@@ -40,7 +40,7 @@ const Unidades = () => {
     }
   ];
 
-  const getFacilidadeIcon = (facilidade:string) => {
+  const getFacilidadeIcon = (facilidade) => {
     switch (facilidade) {
       case 'Acessibilidade':
         return <FaWheelchair className="mr-2 text-primary" />;
@@ -64,7 +64,7 @@ const Unidades = () => {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Nossas Unidades</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Estamos presentes em diferentes regiões de São Paulo para oferecer atendimento oftalmológico de qualidade perto de você.
+              Estamos presentes em diferentes regiões do Brasil para oferecer atendimento oftalmológico de qualidade perto de você.
             </p>
           </div>
         </section>
@@ -157,7 +157,7 @@ const Unidades = () => {
                         width="100%" 
                         height="100%" 
                         style={{ border: 0 }} 
-                        //allowFullScreen="" 
+                        allowFullScreen="" 
                         loading="lazy"
                         title={`Mapa da unidade ${unidade.nome}`}
                       ></iframe>
