@@ -40,7 +40,7 @@ const Unidades = () => {
     }
   ];
 
-  const getFacilidadeIcon = (facilidade) => {
+  const getFacilidadeIcon = (facilidade:string) => {
     switch (facilidade) {
       case 'Acessibilidade':
         return <FaWheelchair className="mr-2 text-primary" />;
@@ -157,7 +157,7 @@ const Unidades = () => {
                         width="100%" 
                         height="100%" 
                         style={{ border: 0 }} 
-                        allowFullScreen="" 
+                        //allowFullScreen="" 
                         loading="lazy"
                         title={`Mapa da unidade ${unidade.nome}`}
                       ></iframe>
