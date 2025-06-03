@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaWheelchair, FaParking, FaBusAlt, FaWifi } from 'react-icons/fa';
